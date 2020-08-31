@@ -39,7 +39,7 @@
 - ID:team1
 - パスワード:A5112
 - URL:
-[http://54.95.98.71/](http://54.95.98.71/){:target="_blank" rel="noopener noreferrer"}
+[http://54.95.98.71/](http://54.95.98.71/){:target="_blank" rel="noopener"}
 
 
 ## テストアカウント
