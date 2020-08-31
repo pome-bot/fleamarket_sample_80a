@@ -1,29 +1,63 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<h1 align="center">フリーマーケットサイト</h1>
 
-Things you may want to cover:
+- メルカリクローンのフリーマーケットサイトです。
+- TECH::CAMP 80期短期集中コースAチームで作成。
+- 作成期間 2020/8/4 ~ 2020/8/28
+![fleamarket_sample](https://user-images.githubusercontent.com/61574277/91686571-8f4d8500-eb98-11ea-8767-91a0030414ff.jpeg)
 
-* Ruby version
+## :paperclip: 主な使用言語
+<a><img src="https://user-images.githubusercontent.com/39142850/71774533-1ddf1780-2fb4-11ea-8560-753bed352838.png" width="70px;" /></a> <!-- rubyのロゴ -->
+<a><img src="https://user-images.githubusercontent.com/39142850/71774548-731b2900-2fb4-11ea-99ba-565546c5acb4.png" height="60px;" /></a> <!-- RubyOnRailsのロゴ -->
+<a><img src="https://user-images.githubusercontent.com/39142850/71774618-b32edb80-2fb5-11ea-9050-d5929a49e9a5.png" height="60px;" /></a> <!-- Hamlのロゴ -->
+<a><<img src="https://user-images.githubusercontent.com/39142850/71774644-115bbe80-2fb6-11ea-822c-568eabde5228.png" height="60px" /></a> <!-- Scssのロゴ -->
+<a><img src="https://user-images.githubusercontent.com/39142850/71774768-d064a980-2fb7-11ea-88ad-4562c59470ae.png" height="65px;" /></a> <!-- jQueryのロゴ -->
+<a><img src="https://user-images.githubusercontent.com/39142850/71774786-37825e00-2fb8-11ea-8b90-bd652a58f1ad.png" height="60px;" /></a> <!-- AWSのロゴ -->
 
-* System dependencies
+## 機能紹介
+- 新規会員登録・ログインをすると商品の購入、出品ができます。
+- 新規会員登録、ログインがお済みでない方も商品の一覧、詳細を閲覧可能です。
+- 決済方法はご自身のクレジットカードを登録して購入できます。
 
-* Configuration
 
-* Database creation
+## 担当箇所
+- トップページのマークアップ
+- 商品一覧表示
+- 商品詳細ページのマークアップ、バックエンド
+- 商品出品ページのマークアップ
+- 商品購入確認ページのマークアップ、バックエンド
+- 商品の削除機能
+- パンくず機能の実装
+- ユーザー新規登録、ログインの本人確認情報のマークアップ、バックエンド
+- クレジットカード未登録時の処理
 
-* Database initialization
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+## サイトURL紹介
+- ID:team1
+- パスワード:A5112
+- IPアドレス:
+[link](http://54.95.98.71/){:target="_blank", :rel="noopener noreferrer}
 
-* ...
 
-# Designing Database
+## テストアカウント
+### 購入者用
+- メールアドレス：tanaka@user50.com
+- パスワード：3334444
+### 購入用カード情報
+- 番号：4242 4242 4242 4242
+- 期限：3 / 22
+- セキュリティカード：111
+### 出品者用
+- メールアドレス：yamada@user50.com
+- パスワード：3335555
+
+
+
+
+# :page_facing_up: DB設計
 
 ## users table
 |Column|Type|Options|
