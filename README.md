@@ -39,7 +39,7 @@
 - ID:team1
 - パスワード:A5112
 - IPアドレス:
-[link](http://54.95.98.71/){:target="_blank", :rel="noopener noreferrer}
+[link](http://54.95.98.71/){:target="_blank" rel="noopener noreferrer}
 
 
 ## テストアカウント
